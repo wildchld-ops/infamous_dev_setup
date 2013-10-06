@@ -18,7 +18,7 @@ sudo apt-get update && sudo apt-get install android-tools-adb android-tools-fast
 echo "Done"
 echo "Create bin directory and getting repo"
 sleep 2
-mkdir ~/bin && curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo && chmod a+x ~/bin/repo
+mkdir ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo chmod a+x ~/bin/repo
 chmod a+x ~/bin/repo
 echo "Done"
 echo "Installing packages"
