@@ -18,6 +18,8 @@ sudo apt-get update && sudo apt-get install android-tools-adb android-tools-fast
 echo "Done"
 echo "Create bin directory and getting repo"
 sleep 2
+rm -rf ~/bin/repo
+rm -rf ~/.repoconfig
 mkdir ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 echo "Done"
