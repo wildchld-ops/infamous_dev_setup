@@ -1,4 +1,4 @@
-infamous_aokp_dev_setup
+infamous_dev_setup
 =======================
 
-Setup script for AOKP build environment for Ubuntu 13.04 
+Setup script for build environment for Ubuntu 13.10 
