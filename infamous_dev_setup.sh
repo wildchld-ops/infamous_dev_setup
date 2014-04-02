@@ -3,7 +3,7 @@
 # Author: mrimp
 #
 # Description:
-# Setup script for AOKP Build Enviroment Ubuntu 13.04
+# Setup script for the Build Enviroment Ubuntu 13.10
 #
 # Legal Stuff:
 #
