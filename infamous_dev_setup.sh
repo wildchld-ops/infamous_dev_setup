@@ -25,7 +25,8 @@ sleep 2
 echo "Enter in your password"
 sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\* -y
 sudo add-apt-repository ppa:webupd8team/java -y
-sudo apt-get update && sudo apt-get install oracle-java6-installer -y
+sudo apt-get update 
+sudo apt-get install oracle-java6-installer -y
 sudo update-java-alternatives -s java-6-oracle
 sudo apt-get install oracle-java6-set-default
 echo ""
@@ -58,4 +59,4 @@ sleep 2
 echo 'export PATH=$PATH:~/bin' >> ~/.bashrc
 source ~/.bashrc
 echo "Done"
-# Moving below to a aokp_build.sh
+
