@@ -19,7 +19,7 @@
 # You should have received a copy of the GNU General Public License along with
 # this program; if not, see <https://www.gnu.org/licenses/gpl-3.0.txt>
 #
-echo "Ubuntu 13.10"
+echo "Ubuntu 14.04"
 echo "Replace openjdk with Oracle java6"
 sleep 2
 echo "Enter in your password"
